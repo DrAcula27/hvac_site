@@ -103,6 +103,136 @@
       </div>
     </section>
 
+    <!-- Schedule and Request Quote Section -->
+    <section id="forms" class="bg-light p-5">
+      <div class="container">
+        <h2 class="text-center">
+          Schedule a Service or Request a Quote
+        </h2>
+        <div class="row mt-4">
+          <!-- Schedule Service Form -->
+          <div class="col-md-6">
+            <h4>Schedule a Service</h4>
+            <form
+              class="mt-3"
+              action="/api/schedule_service"
+              method="POST"
+            >
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="date" class="form-label"
+                  >Select Date and Time</label
+                >
+                <input
+                  type="datetime-local"
+                  class="form-control"
+                  id="date"
+                  name="date"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Schedule Service
+              </button>
+            </form>
+          </div>
+
+          <!-- Request a Quote Form -->
+          <div class="col-md-6">
+            <h4>Request a Quote</h4>
+            <form
+              class="mt-3"
+              action="/api/request_quote"
+              method="POST"
+            >
+              <div class="mb-3">
+                <label for="quoteName" class="form-label"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="quoteName"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="quoteEmail" class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="quoteEmail"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="service" class="form-label"
+                  >Service Needed</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="service"
+                  name="service"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Request Quote
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer id="contact" class="bg-dark text-white text-center p-4">
       <div class="container">
