@@ -58,6 +58,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - ![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=flat&logo=mongodb&logoColor=white)
 - ![Express](https://img.shields.io/badge/express-000000?style=flat&logo=express&logoColor=white)
 - ![Node](https://img.shields.io/badge/node-5FA04E?style=flat&logo=node.js&logoColor=white)
+- ![Nodemailer](https://img.shields.io/badge/nodemailer-29abe2?style=flat&logo=node.js&logoColor=white)
+- ![Mailtrap](https://img.shields.io/badge/mailtrap-22D172?style=flat&logo=mailtrap&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
