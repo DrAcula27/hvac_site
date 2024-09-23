@@ -5,16 +5,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="#">
+  <!-- <a href="#">
     <img src="./images/logo.png" alt="Logo" width="80" />
-  </a>
+  </a> -->
 
   <h3 align="center">Cooler Than You HVAC</h3>
 
   <p align="center">
     Here for all your heating, ventilation, and air conditioning needs.
     <br />
-    <a href="#">View Site</a>
+    <!-- <a href="#">View Site</a> -->
   </p>
 </div>
 
@@ -40,13 +40,13 @@
 
 ## About The Project
 
-<p align="center">
+<!-- <p align="center">
     <a href="#">
       <img src='./images/IMAGE' alt='Screen Shot' />
     </a>
-</p>
+</p> -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is a template website for a company that uses frontend and backend technologies to enable a business to have a web presence that allows customers to schedule services and request quotes and get an automated email response upon a successful request. The customer is notified via the website when the request is successful or fails. The forms make use of an internal API to save customer info to a database and an external API to automate the emails.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +67,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Usage
 
-View the site at [LINK](#) to get all the information you need. At this site you can:
+<!-- View the site at [LINK](#) to get all the information you need. -->
+At this site you can:
 
 - View services
 - Schedule an appointment
@@ -89,6 +90,7 @@ This project can be improved by:
 - [ ] In the Schedule a Service form:
   - [ ] Not allowing the user to pick a date in the past
   - [ ] Improve UX for picking a date and time
+- [ ] Implement email verification
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,6 +100,7 @@ This project can be improved by:
 
 - **Automated Emails.** Integrating automated emails with Mailtrap and Nodemailer is much easier than anticipated!
 - **Internal API.** This was good practice with creating an internal API and also pulling from an external API in the same project.
+- **Email Security.** This is a decent start on creating a site that automatically sends emails to a customer when they fill out a form online. However, for a production site, implementing security measures like email authentication and disabling the forms for a browser session after a customer sends a request would be advisable.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +110,7 @@ This project can be improved by:
 
 Danielle Andrews - [@DrAcula_codes](https://twitter.com/DrAcula_codes 'Twitter/X') - [daniellerandrews](https://www.linkedin.com/in/daniellerandrews 'LinkedIn') - danielle.andrews.dev@icloud.com
 
-Project Link: [LINK](#)
+<!-- Project Link: [LINK](#) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,5 +124,7 @@ A special thanks to these resources used in the project!
 - [MongoDB](https://www.mongodb.com/)
 - [Express](https://expressjs.com/)
 - [Node](https://nodejs.org/)
+- [Nodemailer](https://nodemailer.com/)
+- [Mailtrap](https://mailtrap.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
