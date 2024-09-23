@@ -52,4 +52,33 @@ router.post('/schedule_service', async (req, res) => {
   }
 });
 
+router.post('/request_quote', async (req, res) => {
+  const { name, email, service, message } = req.body;
+
+  let scheduleEmailText = `Dear ${name},
+  We're honored that you're considering us for your ${service} needs!
+  One of our knowledgeable reps will email you at this address within one business day to hear more about how we can assist you.
+  For your records, your message to us is below:
+  
+  ${message}
+
+  Sincerely,
+  Cooler Than You HVAC Team`;
+
+  try {
+    transport.sendMail({
+      from: sender,
+      to: email,
+      subject: 'HVAC Appointment Request',
+      text: scheduleEmailText,
+      category: 'Schedule Service',
+    });
+
+    res.sendFile(path.join(__dirname, '../views/bookSuccess.html'));
+  } catch (err) {
+    console.error(err);
+    res.sendFile(path.join(__dirname, '../views/bookError.html'));
+  }
+});
+
 module.exports = router;
