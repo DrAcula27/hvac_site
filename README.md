@@ -81,7 +81,14 @@ View the site at [LINK](#) to get all the information you need. At this site you
 
 This project can be improved by:
 
-- [ ] IMPROVEMENTS
+- [ ] In both forms:
+  - [ ] Improve validation
+  - [ ] Improve accessibility
+- [ ] In Request a Quote form:
+  - [ ] Using a dropdown for the 'Service Needed' input
+- [ ] In the Schedule a Service form:
+  - [ ] Not allowing the user to pick a date in the past
+  - [ ] Improve UX for picking a date and time
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +96,8 @@ This project can be improved by:
 
 ## Lessons Learned
 
-- **LESSON ONE.** LESSON ONE BLURB
+- **Automated Emails.** Integrating automated emails with Mailtrap and Nodemailer is much easier than anticipated!
+- **Internal API.** This was good practice with creating an internal API and also pulling from an external API in the same project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
